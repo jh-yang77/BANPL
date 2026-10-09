@@ -1,0 +1,50 @@
+{
+  "id_dataset": "ImageNet-1K",
+  "runs": [
+    {
+      "method": "BANPL",
+      "backbone": "ViT-B/16",
+      "seed": 1,
+      "direction": "ood_high",
+      "scores": {
+        "iNaturalist": "../runs/banpl/seed1/eval/iNaturalist_2_scores.txt",
+        "SUN": "../runs/banpl/seed1/eval/SUN_2_scores.txt",
+        "Places": "../runs/banpl/seed1/eval/Places_2_scores.txt",
+        "Textures": "../runs/banpl/seed1/eval/Textures_2_scores.txt",
+        "SSB-Hard": "../runs/banpl/seed1/eval/SSB-Hard_2_scores.txt",
+        "NINCO": "../runs/banpl/seed1/eval/NINCO_2_scores.txt",
+        "OpenImage-O": "../runs/banpl/seed1/eval/OpenImage-O_2_scores.txt"
+      }
+    },
+    {
+      "method": "BANPL",
+      "backbone": "ViT-B/16",
+      "seed": 2,
+      "direction": "ood_high",
+      "scores": {
+        "iNaturalist": "../runs/banpl/seed2/eval/iNaturalist_2_scores.txt",
+        "SUN": "../runs/banpl/seed2/eval/SUN_2_scores.txt",
+        "Places": "../runs/banpl/seed2/eval/Places_2_scores.txt",
+        "Textures": "../runs/banpl/seed2/eval/Textures_2_scores.txt",
+        "SSB-Hard": "../runs/banpl/seed2/eval/SSB-Hard_2_scores.txt",
+        "NINCO": "../runs/banpl/seed2/eval/NINCO_2_scores.txt",
+        "OpenImage-O": "../runs/banpl/seed2/eval/OpenImage-O_2_scores.txt"
+      }
+    },
+    {
+      "method": "BANPL",
+      "backbone": "ViT-B/16",
+      "seed": 3,
+      "direction": "ood_high",
+      "scores": {
+        "iNaturalist": "../runs/banpl/seed3/eval/iNaturalist_2_scores.txt",
+        "SUN": "../runs/banpl/seed3/eval/SUN_2_scores.txt",
+        "Places": "../runs/banpl/seed3/eval/Places_2_scores.txt",
+        "Textures": "../runs/banpl/seed3/eval/Textures_2_scores.txt",
+        "SSB-Hard": "../runs/banpl/seed3/eval/SSB-Hard_2_scores.txt",
+        "NINCO": "../runs/banpl/seed3/eval/NINCO_2_scores.txt",
+        "OpenImage-O": "../runs/banpl/seed3/eval/OpenImage-O_2_scores.txt"
+      }
+    }
+  ]
+}

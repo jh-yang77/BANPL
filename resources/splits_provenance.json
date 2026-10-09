@@ -1,0 +1,29 @@
+[
+  {
+    "seed": 1,
+    "samples": 16000,
+    "original_pickle_sha256": "71acea05a2a870712e7523962cb16830424c5216413fa9ad550167d66cc95aec",
+    "csv_sha256": "97b28b9e2a825937ae0faca82f258e5c80bdd62d017a1e2a95ee95730ff71874",
+    "release_pickle_sha256": "753fb9d9f6fbd58a8ddf003a1737a77d2a998d846aafd3bfdc46254ea7046b17",
+    "path_base": "imagenet",
+    "record_format": "dassl.data.datasets.base_dataset.Datum"
+  },
+  {
+    "seed": 2,
+    "samples": 16000,
+    "original_pickle_sha256": "39a2244c7b795f2318c2ee09bc14d2e260b8dcfcba34afb79e34a60e61612d22",
+    "csv_sha256": "5bad214cc7aacf837d9d0fe759cadea410364e00640833c19788a42aed619ecf",
+    "release_pickle_sha256": "c64fc24e8082cc71b6b1c1eb0622e5932936768fa2ebc89347f32ee769e811a9",
+    "path_base": "imagenet",
+    "record_format": "dassl.data.datasets.base_dataset.Datum"
+  },
+  {
+    "seed": 3,
+    "samples": 16000,
+    "original_pickle_sha256": "92d7c0a67b9b66ec3c70424a278380233d86975e21b8d7f08d04078fb253f786",
+    "csv_sha256": "95d2fa9ec4206e005c43d056e6dd2af7b58f7a3298bc633d72d8f04fc0fcd987",
+    "release_pickle_sha256": "8759b4a4f90edc24e42a6f938944ce9a0bf91165c69746af5996d4efd31698a3",
+    "path_base": "imagenet",
+    "record_format": "dassl.data.datasets.base_dataset.Datum"
+  }
+]
